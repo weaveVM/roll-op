@@ -185,7 +185,7 @@ def get_valid_os(program: str) -> str:
 GO_MIN_VERSION = "1.21"
 """Minimum Go version required by the Optimism repository."""
 
-GO_MAX_VERSION = "1.21.4"
+GO_MAX_VERSION = "1.22.7"
 """Maximum Go version found to work."""
 
 GO_INSTALL_VERSION = "1.21.4"
@@ -415,13 +415,13 @@ def get_foundry_version():
 
 ####################################################################################################
 
-FOUNDRY_VERSION = "2023-11-02"
+FOUNDRY_VERSION = "2024-09-22"
 """
 Required version of forge. We're locking down foundry to a specific version, as new versions can
 introduce serious regressions, and have done so in the past.
 """
 
-FOUNDRY_INSTALL_TAG = "nightly-09fe3e041369a816365a020f715ad6f94dbce9f2"
+FOUNDRY_INSTALL_TAG = "nightly"
 """
 The tag of the foundry release to install if needed.
 """
